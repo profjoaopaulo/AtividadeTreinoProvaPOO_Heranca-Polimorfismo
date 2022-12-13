@@ -15,6 +15,21 @@ public class Pessoa {
     //Construtor sem parâmetros
     public Pessoa() { }
 
+    //Métodos exemplos para Sobrecarga e Sobrescrita
+    public void info() {
+
+        System.out.println("Eu sou pessoa!");
+    }
+
+    //Sobrecarga do método info()
+    public void info(String sexo) {
+
+        if(sexo.equals("M"))
+            System.out.println("Eu sou uma pessoa do sexo masculino!");
+        else
+            System.out.println("Eu sou uma pessoa do sexo feminino!");
+    }
+
     //Getters e Setters
     public String getNome() {
         return nome;

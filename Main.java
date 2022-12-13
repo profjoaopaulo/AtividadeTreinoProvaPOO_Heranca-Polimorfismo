@@ -20,6 +20,9 @@ public class Main {
         + "\nDisciplina: " + funcAdm.getSalario() + "\nSetor: " + funcAdm.getSetor() + "\nFunção: " 
         + funcAdm.getFuncao());
 
+        //Exemplos do uso da sobrecarga de métodos
+        aluno.info();
+        aluno.info("M");
         //Foi usado os dados direto no código, para ficar mais curto o código. Mas use à vontade a leitura com o objeto Scanner
     }
 }

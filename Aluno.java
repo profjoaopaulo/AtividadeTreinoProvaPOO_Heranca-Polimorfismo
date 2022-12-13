@@ -14,6 +14,13 @@ public class Aluno extends Pessoa {
         //Construtor sem parâmetros
         public Aluno() { }
 
+        //Exemplo de sobrescrita do método info() da classe Pessoa
+        @Override
+        public void info() {
+            
+            System.out.println("Eu sou um aluno!");
+        }
+
         //Getters e Setters
         public String getSemestre() {
             return semestre;
